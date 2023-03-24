@@ -1,0 +1,40 @@
+<section class="contact py-3 mt-5">
+    <div class="container">
+        <div class=" d-flex justify-content-center">
+            <div class="heading text-center">
+                <h2 class="mt-5 fw-bold Heading">CONTACT</h2>
+                <div class="line-style position-relative mt-4   ">
+                    <div class="F-line"></div>
+                    <div class="Star-icon">
+                        <i class="fa-solid fa-star  fa-2x px-3"></i>
+                    </div>
+                </div>
+               </div>
+          </div>
+          <div class="CONTACT-INFO ">
+            <div class="row justify-content-center">
+                <div class="col-md-8 ">
+                    <div class="NAME mb-3 py-3">
+                        <input type="text" class="form-control border-0" placeholder="Name">
+                        <div>
+        
+                        </div>
+                    </div>
+                    <div class="Email mb-3 py-3">
+                        <input type="text" [(ngModel)]="email" (blur)="check()" class="form-control border-0" placeholder="Email Address">
+                        <p class="alert alert-danger mt-2 d-none" id="EmailCheck">Email not valid *exemple@yyy.zzz</p>
+                    </div>
+                    <div class="Phone mb-3 py-3">
+                        <input type="text" class="form-control border-0" placeholder="Phone Number">
+                    </div>
+                    <div class="Massage mb-3 py-3">
+                        <textarea name="" class="form-control border-0"  placeholder="Massage" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-success">Send</button>
+                </div>
+            </div>
+          </div>
+    </div>
+
+   
+</section>

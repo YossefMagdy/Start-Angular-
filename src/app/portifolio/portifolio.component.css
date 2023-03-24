@@ -1,0 +1,40 @@
+.heading{
+   width: fit-content; 
+}
+h2{
+    color: var(--main-color);
+}
+.image{
+    cursor: pointer;
+}
+.F-line{
+    margin: auto;
+    width:100%;
+    background-color: var(--main-color);
+}
+.Star-icon{
+    color:var(--main-color) ;
+    background-color: white;
+}   
+.overLay{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background-color: #1abc9cde;
+    transition: 0.5s all;
+}
+.overLay:hover{
+    opacity: 100%;
+}
+.information{
+    position: absolute;
+    width: 70%;
+   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.page-infor img{
+    width: 500px;
+}

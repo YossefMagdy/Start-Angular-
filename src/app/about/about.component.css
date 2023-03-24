@@ -1,0 +1,18 @@
+.about{
+    background-color: var(--backGround-color);
+}
+.heading{
+    width: fit-content; 
+ }
+ h2{
+     color: white;
+ }
+ .F-line{
+    margin: auto;
+    width:100%;
+    background-color:white;
+}
+.Star-icon{
+    color:var(--main-color) ;
+    background-color: var(--backGround-color);
+}   

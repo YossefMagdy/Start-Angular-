@@ -1,0 +1,25 @@
+.heading{
+    width: fit-content; 
+ }
+ h2{
+     color: var(--main-color);
+ }
+ .F-line{
+    margin: auto;
+    width:100%;
+    background-color: var(--main-color);
+}
+.Star-icon{
+    color:var(--main-color) ;
+    background-color: white;
+}   
+
+input:focus,
+textarea:focus  {
+
+    box-shadow: none;
+}
+
+.CONTACT-INFO .row .col-md-8>div{
+    border-bottom: 1px solid #e9ecef;
+}
